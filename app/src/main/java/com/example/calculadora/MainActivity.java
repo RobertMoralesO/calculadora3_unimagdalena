@@ -43,4 +43,11 @@ public class MainActivity extends AppCompatActivity {
 		}
 		return true;
 	}
+
+	public void limpiar(View v){
+		num1.setText("");
+		num2.setText("");
+		resultado.setText("");
+		num1.requestFocus();
+	}
 }
